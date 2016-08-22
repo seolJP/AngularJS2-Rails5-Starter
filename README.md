@@ -3,7 +3,7 @@
 # Getting Started
 ## Dependencies
 What you need to run this app:
-**Make sure you have Node version >= 4.4.3  and NPM >= 3.10.5 and ruby >= 2.3.0
+#### Make sure you have Node version >= 4.4.3  and NPM >= 3.10.5 and ruby >= 2.3.0
 * `node` and `npm` (`brew install node`)
 * ruby (`brew install rbenv ruby-build`)
 * typescript
@@ -54,5 +54,4 @@ $ bundle exec rails server
 ```
 
 ### License
- [MIT](/LICENSE)
-
+[MIT](https://en.wikipedia.org/wiki/MIT_License)
