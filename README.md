@@ -53,5 +53,11 @@ $ npm start
 $ bundle exec rails server 
 ```
 
+### To check Running Angular
+If you want to know running angular 2, access to http://localhost:3000/home/index.
+You can find MainComponent of Angular2 in http://localhost:3000/home/index
+If angular 2 is running in the localhost then you can find this messages at javascript console.
+> displayed Angular 2 is running in the development mode. Call enableProdMode() to enable the production mode.
+
 ### License
 [MIT](https://en.wikipedia.org/wiki/MIT_License)
