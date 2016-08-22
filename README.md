@@ -1,6 +1,6 @@
 # Angular2 Rails5 Starter
 
-### Getting Started
+# Getting Started
 ## Dependencies
 What you need to run this app:
 **Make sure you have Node version >= 4.4.3  and NPM >= 3.10.5 and ruby >= 2.3.0
@@ -8,6 +8,36 @@ What you need to run this app:
 * ruby (`brew install rbenv ruby-build`)
 * typescript
 * webpack
+
+## File Structure
+```
+AngularJS2-Rails5-Starter/
+ ├──angular2/                  * located Componenets, Route configs, Templates
+ |   ├──app.routes.ts          * route config
+ |   ├──app.ts                 * root file
+ │   ├──components/            * located custermized componenets for project
+ |        ├──MainComponent.ts  * sample component file
+ |   ├──launch.ts              * angular 2 bootstrap file
+ │   └──vendor.ts              * vendor
+ │
+ ├──app/                       * organizes application components. (controllers, models, views and helpers)
+ ├──bin/                       * contains Rails script for run application
+ ├──config/                    * contains database configuration, Rails environment structure, routing of incoming web requests.
+ ├──db/                        * contains current database schema, as well as the database migrations.
+ ├──lib/                       * located extended modules for this application.
+ ├──log/                       * manage & find various error logs
+ ├──public/
+ ├──tmp/                       * Rails uses this directory to hold temporary files for intermediate processing.
+ ├──typings/
+ ├──Gemfile                    * file which is used for describing gem dependencies for Ruby Applications.
+ ├──Gemfile.lock               * records the exact versions and name of the gem when running bundle install
+ ├──package.json               * what npm uses to manage it's dependencies
+ ├──tsconfig.json              * config that webpack uses for typescript
+ ├──typings.json               * specifies the root files and the compiler options required to compile the project.
+ ├──.gitignore
+ └──webpack.config.js          * webpack main configuration file
+
+```
 
 ## Running the app
 ```bash
